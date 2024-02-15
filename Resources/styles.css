@@ -1,0 +1,46 @@
+
+
+html{
+    background: rgb(220, 187, 193);
+}
+
+*{
+    text-align: center;
+}
+
+h1[draggable]{
+    color: blueviolet;
+    text-shadow: 2cm;
+    font-weight: bolder;
+    
+}
+
+
+.creative-project{
+    color: rgb(67, 8, 71);
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.personal-goals{
+    color: rgb(251, 21, 56);
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.meaning-purpose{
+    color: rgb(211, 244, 21);
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.renew-vows{
+    color: rgb(191, 57, 187);
+    font-weight: lighter;
+    font-style: italic;
+}
+
+section {
+    padding: 30px;
+    margin-bottom: 20px;
+}
