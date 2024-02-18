@@ -1,18 +1,25 @@
-
-
 html{
-    background: rgb(220, 187, 193);
+    background: rgb(221, 208, 211);
 }
 
 *{
     text-align: center;
 }
 
+
+#dreams{
+    background-color: antiquewhite;
+    border: solid aquamarine;
+    border-width: 5px 15px 0px 0px;
+    border-radius: 10pt;
+    padding: 10px;
+    margin: 10px;
+}
 h1[draggable]{
     color: blueviolet;
     text-shadow: 2cm;
-    font-family: "Glegoo",serif;
-       
+    font-weight: bolder;
+    
 }
 
 
@@ -29,7 +36,7 @@ h1[draggable]{
 }
 
 .meaning-purpose{
-    color: rgb(211, 244, 21);
+    color: rgb(8, 95, 189);
     font-weight: lighter;
     font-style: italic;
 }
@@ -43,4 +50,14 @@ h1[draggable]{
 section {
     padding: 30px;
     margin-bottom: 20px;
+}
+#paragraph{
+    border: solid rgb(164, 232, 219);
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 15px;
+    border-left: 7px;
+    border-radius: 10pt;
+    margin: 5px;
+    padding: 5px;
 }
