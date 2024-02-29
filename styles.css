@@ -14,10 +14,6 @@ html{
 
 
 
-
-
-
-
 body {
     font-family: Arial, sans-serif;
     background-color: #f5f5f5;
@@ -28,8 +24,6 @@ header {
     background-color: #e0e0e0;
     padding: 20px;
 }
-
-
 
 section {
     padding: 30px;
@@ -94,5 +88,33 @@ p[class="eternally"]{
 #future{
     background-color: pink;
     font-family: 'Times New Roman', Times, serif;
+}
+
+.container{
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+nav > a{
+    background-color: azure;
+    background-blend-mode: color-burn;
+    border-radius: 20px;
+    padding: 10px;
+    margin:2px;
+    gap: 5px;
+    color: black;
+}
+nav{
+    background-color:#e0e0e0;
+    transition: all ease 0.8s;
+}
+
+nav:hover{
+    width: 100%;
+    scale: 1.1;
+
 }
 /* Add more styles for headings, navigation, and other elements */
