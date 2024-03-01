@@ -1,5 +1,4 @@
-html{
-    ::-webkit-scrollbar{
+/* html::-webkit-scrollbar{background{
         width: 10px;
     }
     ::-webkit-scrollbar-track{
@@ -10,7 +9,7 @@ html{
        background-color: red;
         border-radius: 5pt;
     }
-}
+} */
 
 
 
@@ -117,4 +116,10 @@ nav:hover{
     scale: 1.1;
 
 }
-/* Add more styles for headings, navigation, and other elements */
+@media(320px<=width<=720px){
+    nav{
+        display:flex;
+        justify-content: center;
+    }
+    
+}
